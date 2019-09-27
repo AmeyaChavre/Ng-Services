@@ -10,6 +10,7 @@ export class AccountComponent {
   @Input() id: number;
   @Output() statusChanged = new EventEmitter<{id: number, newStatus: string}>();
 
+  constructor(private loggingService: LoggingService){}
 
   onSetTo(status: string) {
     this.statusChanged.emit({id: this.id, newStatus: status});
