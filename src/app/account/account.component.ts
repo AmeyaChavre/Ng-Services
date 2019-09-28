@@ -10,7 +10,7 @@ import { LoggingService } from '../logging.service';
 export class AccountComponent {
   @Input() account: {name: string, status: string};
   @Input() id: number;
-  @Output() statusChanged = new EventEmitter<{id: number, newStatus: string}>();
+  
 
   constructor(private loggingService: LoggingService){}
 
