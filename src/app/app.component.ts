@@ -9,6 +9,6 @@ export class AppComponent {
 
 accounts: {name: string, status: string}[] = []
 
-constructor(private accountsService: AccountService) {}
+constructor(private accountsService: AccountsService) {}
 
 }
