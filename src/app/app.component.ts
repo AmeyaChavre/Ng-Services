@@ -13,4 +13,8 @@ accounts: {name: string, status: string}[] = [];
 
 constructor(private accountsService: AccountsService) {}
 
+ngOnInit(){
+  
+}
+
 }
