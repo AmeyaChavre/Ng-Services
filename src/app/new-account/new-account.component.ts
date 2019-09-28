@@ -10,7 +10,10 @@ import { LoggingService } from '../logging.service';
 })
 export class NewAccountComponent {
 
-  constructor(private loggingService: LoggingService){}
+  constructor(private loggingService: LoggingService, 
+    private accountsService: AccountsService){
+    
+  }
 
   onCreateAccount(accountName: string, accountStatus: string) {
     this.loggingService.logStatusChange(accountStatus);
