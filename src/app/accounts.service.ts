@@ -15,6 +15,10 @@ export class AccountsService{
   ];
 
   addAccount(name: string, status: string){
-  	
+
+  }
+
+  updateStatus(id: number, status: string){
+
   }
 }
