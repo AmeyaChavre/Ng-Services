@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-accounts: {name: string, status: string}[]
+accounts: {name: string, status: string}[] = []
 
 }
