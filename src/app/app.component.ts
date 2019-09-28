@@ -14,7 +14,7 @@ accounts: {name: string, status: string}[] = [];
 constructor(private accountsService: AccountsService) {}
 
 ngOnInit(){
-  
+  this.accounts = this.accountsService;
 }
 
 }
