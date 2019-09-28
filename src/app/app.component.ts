@@ -7,7 +7,7 @@ import { AccountsService } from './accounts.service';
   styleUrls: ['./app.component.css'],
   providers: [AccountsService]
 })
-export class AppComponent {
+export class AppComponent implements Oninit {
 
 accounts: {name: string, status: string}[] = []
 
