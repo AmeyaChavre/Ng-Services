@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { AccountsService } from './accounts.service';
 
 @Component({
@@ -7,9 +7,9 @@ import { AccountsService } from './accounts.service';
   styleUrls: ['./app.component.css'],
   providers: [AccountsService]
 })
-export class AppComponent implements Oninit {
+export class AppComponent implements OnInit {
 
-accounts: {name: string, status: string}[] = []
+accounts: {name: string, status: string}[] = [];
 
 constructor(private accountsService: AccountsService) {}
 
