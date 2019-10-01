@@ -9,13 +9,15 @@ import { NewAccountComponent } from './new-account/new-account.component';
 import { AccountsService } from './accounts.service';
 import { LoggingService } from './logging.service';
 import { AccountsManagerComponent } from './accounts-manager/accounts-manager.component';
+import { AccountsDashboardComponent } from './accounts-dashboard/accounts-dashboard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AccountComponent,
     NewAccountComponent,
-    AccountsManagerComponent
+    AccountsManagerComponent,
+    AccountsDashboardComponent
   ],
   imports: [
     BrowserModule,
