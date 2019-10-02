@@ -10,6 +10,7 @@ import { AccountsService } from './accounts.service';
 import { LoggingService } from './logging.service';
 import { AccountsManagerComponent } from './accounts-manager/accounts-manager.component';
 import { AccountsDashboardComponent } from './accounts-dashboard/accounts-dashboard.component';
+import { AccountsConfigComponent } from './accounts-config/accounts-config.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { AccountsDashboardComponent } from './accounts-dashboard/accounts-dashbo
     AccountComponent,
     NewAccountComponent,
     AccountsManagerComponent,
-    AccountsDashboardComponent
+    AccountsDashboardComponent,
+    AccountsConfigComponent
   ],
   imports: [
     BrowserModule,
