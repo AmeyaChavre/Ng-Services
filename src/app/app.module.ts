@@ -11,6 +11,7 @@ import { LoggingService } from './logging.service';
 import { AccountsManagerComponent } from './accounts-manager/accounts-manager.component';
 import { AccountsDashboardComponent } from './accounts-dashboard/accounts-dashboard.component';
 import { AccountsConfigComponent } from './accounts-config/accounts-config.component';
+import { ProfileSettingsComponent } from './profile-settings/profile-settings.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { AccountsConfigComponent } from './accounts-config/accounts-config.compo
     NewAccountComponent,
     AccountsManagerComponent,
     AccountsDashboardComponent,
-    AccountsConfigComponent
+    AccountsConfigComponent,
+    ProfileSettingsComponent
   ],
   imports: [
     BrowserModule,
