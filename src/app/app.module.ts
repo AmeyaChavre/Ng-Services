@@ -13,6 +13,7 @@ import { AccountsDashboardComponent } from './accounts-dashboard/accounts-dashbo
 import { AccountsConfigComponent } from './accounts-config/accounts-config.component';
 import { ProfileSettingsComponent } from './profile-settings/profile-settings.component';
 import { IntegratedModeComponent } from './integrated-mode/integrated-mode.component';
+import { ProfilePolicyComponent } from './profile-policy/profile-policy.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { IntegratedModeComponent } from './integrated-mode/integrated-mode.compo
     AccountsDashboardComponent,
     AccountsConfigComponent,
     ProfileSettingsComponent,
-    IntegratedModeComponent
+    IntegratedModeComponent,
+    ProfilePolicyComponent
   ],
   imports: [
     BrowserModule,
