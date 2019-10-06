@@ -8,24 +8,13 @@ import { AccountComponent } from './account/account.component';
 import { NewAccountComponent } from './new-account/new-account.component';
 import { AccountsService } from './accounts.service';
 import { LoggingService } from './logging.service';
-import { AccountsManagerComponent } from './accounts-manager/accounts-manager.component';
-import { AccountsDashboardComponent } from './accounts-dashboard/accounts-dashboard.component';
-import { AccountsConfigComponent } from './accounts-config/accounts-config.component';
-import { ProfileSettingsComponent } from './profile-settings/profile-settings.component';
-import { IntegratedModeComponent } from './integrated-mode/integrated-mode.component';
-import { ProfilePolicyComponent } from './profile-policy/profile-policy.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AccountComponent,
-    NewAccountComponent,
-    AccountsManagerComponent,
-    AccountsDashboardComponent,
-    AccountsConfigComponent,
-    ProfileSettingsComponent,
-    IntegratedModeComponent,
-    ProfilePolicyComponent
+    NewAccountComponent
+
   ],
   imports: [
     BrowserModule,
